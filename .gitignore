@@ -1,5 +1,11 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
 out/
+out-docker-test/
+build-check/
+*.class
+*.log
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
