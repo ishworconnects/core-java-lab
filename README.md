@@ -1,9 +1,8 @@
 # Core Java Lab
 
-`core-java-lab` is a Java practice repository organized by topic so it is
-easier to browse, study, and run examples one section at a time. The code
-covers beginner to intermediate core Java concepts through small standalone
-programs.
+This repo is my Java practice lab. It is not one big application. It is a
+collection of small programs grouped by topic so I can focus on one area at a
+time while learning core Java.
 
 ## Folder Layout
 
@@ -18,7 +17,7 @@ programs.
 - `src/Hostel/` - package-based Java examples
 - `hello.txt` - sample file used by file handling programs
 
-## Topics Covered
+## What You'll Find
 
 - variables, constants, and primitive data types
 - operators, conditions, and ternary expressions
@@ -30,7 +29,7 @@ programs.
 - object-oriented programming concepts
 - file handling and package usage
 
-## Example Files
+## Good Starting Points
 
 - `src/fundamentals/HelloWorld.java` - entry point and static block example
 - `src/fundamentals/LearnDataTypes.java` - primitive data type practice
@@ -59,9 +58,8 @@ java -cp out Main
 java -cp out Hostel.DateTimeWork
 ```
 
-## Notes
+## A Quick Note
 
-Most files in this repository are independent learning exercises, so you can
-open a folder by topic and run one class at a time while studying. The
-`.gitignore` already excludes build output and common IDE files to keep the
-repository clean.
+Most of these files are standalone exercises, so you can open a topic folder
+and run classes one by one without needing a larger framework around them. The
+`.gitignore` already leaves out build output and common IDE files.
