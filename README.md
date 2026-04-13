@@ -1,39 +1,46 @@
 # Core Java Lab
 
-`core-java-lab` is a hands-on Java practice repository with small examples for
-core language concepts. The project is organized as standalone Java programs
-that explore syntax, control flow, object-oriented programming, collections,
-file handling, and package-based examples.
+`core-java-lab` is a Java practice repository organized by topic so it is
+easier to browse, study, and run examples one section at a time. The code
+covers beginner to intermediate core Java concepts through small standalone
+programs.
 
-## Repository Structure
+## Folder Layout
 
-- `src/` - main set of Java practice files
+- `src/fundamentals/` - variables, data types, operators, strings, input, and
+  basic language features
+- `src/control_flow/` - `if` logic, loops, and flow-control exercises
+- `src/arrays_collections/` - arrays, `ArrayList`, `LinkedList`, and `HashMap`
+- `src/methods/` - method patterns, return types, static methods, and recursion
+- `src/oop/` - classes, constructors, inheritance, abstraction, interfaces,
+  encapsulation, and polymorphism
+- `src/file_handling/` - file creation, reading, writing, and deletion examples
 - `src/Hostel/` - package-based Java examples
-- `hello.txt` - sample text file used by file handling exercises
+- `hello.txt` - sample file used by file handling programs
 
-## What This Repo Covers
+## Topics Covered
 
-- variables, constants, and data types
-- operators, conditions, and ternary logic
-- loops, arrays, and nested loops
+- variables, constants, and primitive data types
+- operators, conditions, and ternary expressions
+- strings, user input, random values, enums, and exceptions
+- loops, nested loops, and flow control
+- arrays and Java collections
 - methods with and without parameters or return values
-- classes, constructors, objects, and scope
-- abstraction, encapsulation, inheritance, interfaces, and polymorphism
-- enums, exceptions, recursion, and static methods
-- collections such as `ArrayList`, `LinkedList`, and `HashMap`
-- file creation, reading, writing, and deletion
-- package usage with the `Hostel` examples
+- recursion and static methods
+- object-oriented programming concepts
+- file handling and package usage
 
 ## Example Files
 
-- `HelloWorld.java` - basic program entry and static block behavior
-- `LearnDataTypes.java` - primitive data type practice
-- `ArrayListWork.java` - list operations with `ArrayList`
-- `HashMapWork.java` - key-value collection practice
-- `PolymorphismWork.java` - method overriding examples
-- `FileRead.java` - reading from `hello.txt`
-- `Main.java` - object creation and package import example
-- `Hostel/DateTimeWork.java` - date and time examples from a package
+- `src/fundamentals/HelloWorld.java` - entry point and static block example
+- `src/fundamentals/LearnDataTypes.java` - primitive data type practice
+- `src/arrays_collections/ArrayListWork.java` - basic `ArrayList` operations
+- `src/arrays_collections/HashMapWork.java` - key-value collection practice
+- `src/methods/RecursionWork.java` - recursion examples
+- `src/oop/PolymorphismWork.java` - method overriding examples
+- `src/oop/Main.java` - object creation and package import example
+- `src/file_handling/FileRead.java` - reads content from `hello.txt`
+- `src/Hostel/DateTimeWork.java` - date and time examples inside a package
 
 ## Compile And Run
 
@@ -54,6 +61,7 @@ java -cp out Hostel.DateTimeWork
 
 ## Notes
 
-Most files are independent learning exercises, so you can run them one at a
-time while studying specific Java topics. Build output and IDE files are
-already covered by `.gitignore` to keep the repository focused on source code.
+Most files in this repository are independent learning exercises, so you can
+open a folder by topic and run one class at a time while studying. The
+`.gitignore` already excludes build output and common IDE files to keep the
+repository clean.
