@@ -1,44 +1,59 @@
-# JavaCommand
+# Core Java Lab
 
-`JavaCommand` is a Java practice repository containing small examples for many
-core language topics. It includes programs for variables, loops, methods,
-arrays, collections, file handling, object-oriented programming, and packages.
+`core-java-lab` is a hands-on Java practice repository with small examples for
+core language concepts. The project is organized as standalone Java programs
+that explore syntax, control flow, object-oriented programming, collections,
+file handling, and package-based examples.
 
-## Project Structure
+## Repository Structure
 
-- `src/` - Java source files
-- `src/Hostel/` - package-based examples
-- `hello.txt` - sample text file for file-handling exercises
+- `src/` - main set of Java practice files
+- `src/Hostel/` - package-based Java examples
+- `hello.txt` - sample text file used by file handling exercises
 
-## Topics Covered
+## What This Repo Covers
 
-- variables and data types
-- operators and conditionals
-- loops and arrays
-- methods and return types
-- classes, constructors, and objects
-- inheritance, abstraction, encapsulation, and polymorphism
+- variables, constants, and data types
+- operators, conditions, and ternary logic
+- loops, arrays, and nested loops
+- methods with and without parameters or return values
+- classes, constructors, objects, and scope
+- abstraction, encapsulation, inheritance, interfaces, and polymorphism
+- enums, exceptions, recursion, and static methods
 - collections such as `ArrayList`, `LinkedList`, and `HashMap`
-- file reading and writing
+- file creation, reading, writing, and deletion
+- package usage with the `Hostel` examples
+
+## Example Files
+
+- `HelloWorld.java` - basic program entry and static block behavior
+- `LearnDataTypes.java` - primitive data type practice
+- `ArrayListWork.java` - list operations with `ArrayList`
+- `HashMapWork.java` - key-value collection practice
+- `PolymorphismWork.java` - method overriding examples
+- `FileRead.java` - reading from `hello.txt`
+- `Main.java` - object creation and package import example
+- `Hostel/DateTimeWork.java` - date and time examples from a package
 
 ## Compile And Run
 
-Compile all source files from PowerShell:
+Compile all Java files from PowerShell:
 
 ```powershell
 $files = Get-ChildItem -Path src -Recurse -Filter *.java | ForEach-Object { $_.FullName }
 javac -d out $files
 ```
 
-Run one of the example programs:
+Run a few sample programs:
 
 ```powershell
 java -cp out HelloWorld
 java -cp out Main
+java -cp out Hostel.DateTimeWork
 ```
 
 ## Notes
 
-Generated build output and IDE-specific files should stay out of version
-control. The `.gitignore` is set up to keep the repository focused on source
-code and learning materials.
+Most files are independent learning exercises, so you can run them one at a
+time while studying specific Java topics. Build output and IDE files are
+already covered by `.gitignore` to keep the repository focused on source code.
